@@ -19,7 +19,7 @@ html{
  }
 
  .section{
-    max-height: 100vh;
+    height: 100vh;
  }
 
  img{
@@ -60,13 +60,35 @@ html{
     float: left;
     margin-bottom: 1rem;
  }
+
+ .cat .margin-bottom{
+    margin-bottom: 1rem;
+ }
  .description p{
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
  }
 
  #bg{
     position: fixed;
     top: 0%;
     z-index: -1;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+ }
+
+ #bg img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+ }
+
+ .image-one{
+    width: 80%;
+    float: left;
+    margin-right: 50%;
+    margin-bottom: 50px;
  }

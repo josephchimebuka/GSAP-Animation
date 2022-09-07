@@ -83,7 +83,7 @@ html{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 900px;
+    max-width: 600px;
  }
 
  .image-one{
@@ -91,4 +91,15 @@ html{
     float: left;
     margin-right: 50%;
     margin-bottom: 50px;
+ }
+
+
+
+ @media (min-width: 1200px) {
+   #bg img{
+    min-width: 1200px;
+   }
+   .description{
+      width: 50%;
+   }
  }

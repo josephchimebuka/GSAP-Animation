@@ -94,12 +94,8 @@ html{
  }
 
 
-
- @media (min-width: 1200px) {
-   #bg img{
-    min-width: 1200px;
-   }
+@media (max-width: 768px) {
    .description{
       width: 50%;
    }
- }
+}
